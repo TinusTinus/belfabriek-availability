@@ -28,3 +28,12 @@ Available:    1
 Reason:       -
 Extension:    31634567890
 ```
+
+How to use
+----------
+* Make sure you have [Python](https://www.python.org/) (tested with version 2.7);
+* download and extract the source zip, or just clone the repository;
+* open belfabriek.py in your favourite text editor;
+* replace the dummy account code by your actual Belfabriek account code;
+* replace the dummy names and extension ids by your team members' actual names and extension ids;
+* run the script.
