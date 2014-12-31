@@ -6,21 +6,21 @@ __author__ =  'Martijn van de Rijdt'
 from datetime import datetime
 from xmlrpclib import ServerProxy
 
-'''Belfabriek account code.'''
+# Belfabriek account code.
 # Enter your actual Belfabriek account code here.
 ACCOUNT_CODE = '12345'
 
-'''Tuples of name and Belfabriek extension ID.'''
+# Tuples of name and Belfabriek extension ID.
 # Enter your actual team members' names and extension ids here.
 PEOPLE = [('Alice', '01234'),
   ('Bob', '56789'),
   ('Carol', '11111')]
 
-'''Server proxy for the Belfabriek XMLRPC API.'''
+# Server proxy for the Belfabriek XMLRPC API.
 SERVER = ServerProxy("http://api1.belfabriek.nl/xml/agent/xml.asp")
 
-'''Main function. Prints everyone's availability.'''
 def main():
+  '''Main function. Prints everyone's availability.'''
   print
   print 'Current time:', datetime.now()
   
